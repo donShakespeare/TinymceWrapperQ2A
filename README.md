@@ -8,3 +8,13 @@ Special edition for the awesome
 > **-- _donshakespeare to Kalif the Grateful_**
 
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RAMXZQZQD2NKA" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate via PayPal - The safer, easier way to pay online!"></a>
+
+##HOW TO
+Clone/Download master (to zip)
+
+**OR**
+
+Download zip file directly
+https://github.com/donShakespeare/TinymceWrapperQ2A/raw/master/tinymcewrapper.zip
+
+unzip and upload to q2a/qa-plugins/tinymcewrapper/
