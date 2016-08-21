@@ -1,0 +1,58 @@
+{
+  "super_users": [
+    {
+      "id": "super1",
+      "alias": "Personal ([[+Q2A_USERNAME]])",
+      "driver": "LocalFileSystem",
+      "path": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/[[+Q2A_USERNAME]]/",
+      "url": "[[+Q2A_BASE_URL]]qa-plugin/tinymcewrapper/elfinder/files/[[+Q2A_USERNAME]]/",
+      "startPath": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/[[+Q2A_USERNAME]]/[[+START]]",
+      "tmbPath": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.tmb",
+      "quarantine": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.quarantine",
+      "accessControl": "access"
+    },
+    {
+      "id": "super2",
+      "alias": "Q2A Filesystem",
+      "driver": "LocalFileSystem",
+      "path": "[[+Q2A_BASE_PATH]]",
+      "url": "[[+Q2A_BASE_URL]]",
+      "startPath": "[[+Q2A_BASE_PATH]][[+START]]",
+      "tmbPath": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.tmb",
+      "quarantine": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.quarantine",
+      "accessControl": "access"
+    }
+  ],
+  "basic_users":[
+    {
+      "id": "basic1",
+      "alias": "Personal ([[+Q2A_USERNAME]])",
+      "driver": "LocalFileSystem",
+      "path": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/[[+Q2A_USERNAME]]/",
+      "url": "[[+Q2A_BASE_URL]]qa-plugin/tinymcewrapper/elfinder/files/[[+Q2A_USERNAME]]/",
+      "startPath": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/[[+Q2A_USERNAME]]/[[+START]]",
+      "tmbPath": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.tmb",
+      "quarantine": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.quarantine",
+      "accessControl": "access"
+    },
+    {
+      "id": "basic2",
+      "alias": "Public Basic Folder",
+      "driver": "LocalFileSystem",
+      "path": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/public/",
+      "url": "[[+Q2A_BASE_URL]]qa-plugin/tinymcewrapper/elfinder/files/public/",
+      "startPath": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/public/[[+START]]",
+      "tmbPath": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.tmb",
+      "quarantine": "[[+Q2A_BASE_PATH]]qa-plugin/tinymcewrapper/elfinder/files/.quarantine",
+      "accessControl": "access",
+      "attributes": [
+        {
+          "pattern": "//",
+          "read": true,
+          "write": false,
+          "locked": true
+        }
+      ]
+    }
+  ]
+}

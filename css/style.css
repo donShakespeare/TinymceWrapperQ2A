@@ -1,0 +1,116 @@
+/*
+https://github.com/donShakespeare/
+http://www.leofec.com/modx-revolution/
+(c) 2016 by donShakespeare: MODX & Content Editor Specialist
+Deo Gratias!
+*/
+.tinymcewrapper_format {
+  font-size: 13px;
+  /* background: rgba(236, 236, 236, 0.88); */
+  /* font-weight: bold; */
+  padding: 5px 5px 8px 15px;
+  display:none;
+  transition: opacity 700ms;
+  box-shadow: #2C3E50 0px 1px 6px 2px;
+}
+
+.tinymcewrapper_format span{
+  margin-right:10px;
+}
+
+
+.tinymcewrapper_format span:empty{
+  margin-right:0;
+}
+
+.tinymcewrapper_format span i{
+  /* text-decoration:underline; */
+  font-style: normal;
+  text-transform: uppercase;
+  color: #708ccc;
+  cursor: help;
+}
+.tinymcewrapper_format span b{
+  font-weight: normal;
+  font-size: 10px;
+  vertical-align: text-top;
+  color: #4a4e52;
+}
+
+.tinymcewrapper_format span i a{
+  color:#3f00ff;
+}
+
+.tinymcewrapper_format .tinymcewrapper_format_viewer i{
+  text-transform: none;
+}
+
+.tinymcewrapper_editor_count, .tinymcewrapper_format_viewer{
+  float: right;
+}
+
+.tinymcewrapper_editor_count b,.tinymcewrapper_editor_count i:nth-child(2){
+  /* display: none; */
+}
+
+.tinymcewrapper_editor_format b{
+  margin:0 10px;
+}
+
+.tinymcewrapper_prev,.tinymcewrapper_txt {
+  display: none;
+  visibility: hidden;
+  height: 0;
+  resize: none;
+  width: 0;
+  padding: 0;
+}
+
+.tinymcewrapper_donshakespeare_editor.mce-edit-focus {
+  outline: 0
+}
+
+.tinymcewrapper_donshakespeare_editor {
+  transition: opacity 700ms;
+  box-shadow: #2C3E50 0px 1px 6px 2px;
+  padding: 10px;
+  min-height: 200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.tinymcewrapper_donshakespeare_editor_iframe {
+  transition: opacity 700ms;
+  box-shadow: #2C3E50 0px 1px 6px 2px;
+  /* padding: 10px!important; */
+  padding-top: 6px!important;
+  border: 0!important;
+  margin: auto;
+  background-color: initial!important;
+}
+.tinymcewrapper_donshakespeare_editor:empty:after {
+    content: "   ... start typing\A\A * Select text to activate toolbar \A * Context menu is enabled \A * Keyboard shortcuts enabled (e.g. Ctrl + S)";
+    display: block;
+    font-size: 100%;
+    font-weight: bold;
+    font-style:italic;
+    white-space:pre;
+}
+
+.tinymcewrapper_starter.tinymcewrapper_donshakespeare_editor {
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: none!important;
+  height: 0!important;
+  width: 0!important;
+  min-height: 0!important;
+}
+.tinymcewrapper_starter.tinymcewrapper_donshakespeare_editor:empty:after {
+  display: none!important;
+}
+
+@media screen and (max-width: 650px) {
+  .tinymcewrapper_editor_count, .tinymcewrapper_format_viewer{
+    display: none;
+  }
+}

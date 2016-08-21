@@ -1,0 +1,27 @@
+//Rich Text 
+tinymce.init({
+  selector: "[[+ID]]",
+  inline: [[+MODE]],
+  fixed_toolbar_container: "[[+FLOAT]]",
+  hidden_input: true,
+  elFinderBrowserSettings: {
+    url: tinymcewrapperPluginSrc+"qa-elfinder.php?rememberLastDir=1&defaultView=list&unlocked=1",
+    title: "Media Browser"
+  },
+  plugins:"q2aFluidity bubbleBar twPreCodeManager modxMagicHoverLink twAceEditor image charmap hr emoticons save paste searchreplace contextmenu autolink autoresize directionality",
+  skin_url: "[[+SKIN]]",
+  menubar: false,
+  statusbar: false,
+  file_browser_callback: autoFileBrowser,
+  browser_spellcheck: true,
+  gecko_spellcheck: true,
+  paste_data_images: false,
+  autoresize_bottom_margin: 0,
+  autoresize_min_height: 100,
+  // autoresize_max_height: 300,
+  toolbar1: "ltr | newdocument | bold italic blockquote strikethrough removeformat | numlist bullist link unlink | help",
+  toolbar2: "rtl | twPreCodeManager  code | styleselect | hr | image | charmap | emoticons | searchreplace |  bubbleBarOptionsButton",
+  contextmenu: "twPreCodeManager bold italic blockquote strikethrough  styleselect link image charmap code",
+  // valid_elements: "-h1,-h2,-h3,-h4,-h5,-h6,-p,-blockquote,-ul,-ol,li,-pre,-code,-b,-strong,-span,-a,-figure,-img[*], hr[*]",
+  forced_root_block: "p"
+});

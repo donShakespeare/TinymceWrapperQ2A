@@ -1,0 +1,10 @@
+{
+	"name": "TinymceWrapper",
+	"description": " Pure CDN! - best Markdown and RT Editor ever!",
+	"version": "1",
+	"date": "2016-08-20",
+	"author": "donshakespeare",
+	"author_uri": "www.donshakespeare.com",
+	"license": "GPLv3",
+	"min_q2a": "1.7"
+}

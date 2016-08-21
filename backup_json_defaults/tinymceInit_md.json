@@ -1,0 +1,30 @@
+//Markdown
+tinymce.init({
+  selector: "[[+ID]]",
+  inline: [[+MODE]],
+  fixed_toolbar_container: "[[+FLOAT]]",
+  hidden_input: true,
+  elFinderBrowserSettings: {
+    url: tinymcewrapperPluginSrc+"qa-elfinder.php?rememberLastDir=1&defaultView=list&unlocked=1",
+    title: "Media Browser"
+  },
+  skin_url: "[[+SKIN]]",
+  forced_root_block : "",
+  force_br_newlines : true,
+  force_p_newlines : false,
+  file_browser_callback: autoFileBrowser,
+  browser_spellcheck: true,
+  gecko_spellcheck: true,
+  valid_elements: "br",
+  paste_as_text: true,
+  plugins: "twShowdown q2aFluidity twExoticMarkdownEditor bubbleBar twPreCodeManager modxMagicHoverLink twAceEditor autoresize paste contextmenu save searchreplace directionality",
+  autoresize_bottom_margin: 0,
+  autoresize_min_height: 100,
+  // autoresize_max_height: 300,
+  toolbar1: "ltr | newdocument | boldMD italicMD | blockquoteMD | numlistMD bullistMD | link | help",
+  toolbar2: "rtl | twPreCodeManager | imageMD | tableMD | searchreplace | undo redo | preview |  bubbleBarOptionsButton",
+  content_style:"body{font-size:15px!important;}",
+  menubar: false,
+  statusbar: false,
+  contextmenu: "preview link twPreCodeManager boldMD italicMD linkMD imageMD blockquoteMD codeMD numlistMD bullistMD tableMD undo redo searchreplace"
+});
