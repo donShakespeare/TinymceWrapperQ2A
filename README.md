@@ -1,7 +1,8 @@
 #TinymceWrapper (aka Miranda the beautiful)
-Special edition for the awesome <a href="http://www.question2answer.org/qa/51849/tinymcewrapper-miranda-updated-most-powerful-editor-joins-q2a" target="_blank">Question2Answer community</a>
+Special edition for the awesome 
+[Question2Answer community](http://www.question2answer.org/qa/51849/tinymcewrapper-miranda-updated-most-powerful-editor-joins-q2a){:target="_blank"}
 
-##DEMO: <a href="http://www.leofec.com/demo/question2answer/7/features-tinymcwrapper-rt-md-editor-for-question2answer" target="_blank">Check it out here</a>
+##DEMO: [Check it out here](http://www.leofec.com/demo/question2answer/7/features-tinymcwrapper-rt-md-editor-for-question2answer){:target="_blank"}
 
 >I shall give them a tool whereby to write. This tool shall make them laugh. And when they shall have written, their content shall please both them that did the composition and them that shall chance to read or hear of said content.
 > **-- _donshakespeare to Kalif the Grateful_**
