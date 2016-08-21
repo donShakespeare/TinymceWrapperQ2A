@@ -1,6 +1,8 @@
-##[DOWNLOAD TinymceWrapper, test it and enjoy!](http://www.donshakespeare.com/q2a.html "DOWNLOAD TinymceWrapper")
+
+
 >I shall give them a tool whereby to write. This tool shall make them laugh. And when they shall have written, their content shall please both them that did the composition and them that shall chance to read or hear of said content.
 > **-- _donshakespeare to Kalif the Grateful_**
+
 ##[DOWNLOAD TinymceWrapper, test it and enjoy!](http://www.donshakespeare.com/q2a.html "DOWNLOAD TinymceWrapper")
 ____
 # Total Control Over Toolbars and Buttons!
@@ -41,6 +43,7 @@ ____
 ![TinymceWrapper Q2A Admin Options](http://www.leofec.com/demo/question2answer/assets/pics/admin_full.gif "TinymceWrapper Q2A Admin Options")
 #Skin Selection
 TinyMCE is the best looking Editor out there - and you can make it look even prettier: [Create your own TinyMCE skin in seconds](http://skin.tinymce.com/ "TinyMCE skin generator")
+
 ![TinymceWrapper Skin Selection](http://www.leofec.com/demo/question2answer/assets/pics/admin_drop1.gif "TinymceWrapper Skin Selection")
 #Markdown Parser Selection
 There is no dbate about the speed of PHP Parsedown, go check it out: [Parsedown Extra is simply the fastest](http://www.parsedown.org.com/ "Parsedown.org")
@@ -48,10 +51,12 @@ There is no dbate about the speed of PHP Parsedown, go check it out: [Parsedown 
 #Two Ways to Dominate Your **Q,A,C** Editor Configuration
 **The Magic Universal** enables you to switch modes between Markdown and Rich Text via URL parameter. _For now_, once switched, it remains switched. So, anyone can switch modes and it will be switched for everyone. Admin can disable the switching aspect of Magic Universal.
 ![TinymceWrapper Magic Universal](http://www.leofec.com/demo/question2answer/assets/pics/admin_usemagic.gif "TinymceWrapper Magic Universal")
+
 **The Individual Precise** affords you complete perfection. Question, Answer and Comment can have own _unique_ configuration. You know what this means right?
 ![TinymceWrapper Individual Precise](http://www.leofec.com/demo/question2answer/assets/pics/admin_useprecise.gif "TinymceWrapper Individual Precise")
 #Complete Misc Control - Use RTE Editor Everywhere: Admin/Custom/User etc
 **jQuery/CSS-style Selectors** enables you to be simple or ultra complex.
+
 **Page Request Rules** enables you decide exactly when to load TinymceWrapper CDN and plugin files.
 ![TinymceWrapper Everywhere](http://www.leofec.com/demo/question2answer/assets/pics/admin_usemisc.gif "TinymceWrapper Everywhere")
 _____
