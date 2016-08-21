@@ -86,7 +86,7 @@ Deo Gratias!
   padding-top: 6px!important;
   border: 0!important;
   margin: auto;
-  background-color: initial!important;
+  /* background-color: initial!important; */
 }
 .tinymcewrapper_donshakespeare_editor:empty:after {
     content: "   ... start typing\A\A * Select text to activate toolbar \A * Context menu is enabled \A * Keyboard shortcuts enabled (e.g. Ctrl + S)";
